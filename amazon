@@ -1,7 +1,11 @@
+hideturtle()
+x = ('Calibri', 30,'bold.)
+write('amazon', font=x)
+
 up()
 goto(20, 5)
 down()
-color("orange")
+color('orange')
 right(35)
 
 for x,y in zip(
