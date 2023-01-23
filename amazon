@@ -1,3 +1,5 @@
+from turtle import  *
+
 hideturtle()
 x = ('Calibri', 30,'bold.)
 write('amazon', font=x)
@@ -7,6 +9,11 @@ goto(20, 5)
 down()
 color('orange')
 right(35)
+
+
+
+from turtle import  *
+
 
 for x,y in zip(
         [3,4,5,4,3],
